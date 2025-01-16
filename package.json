@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --outDir ./out"
+    "build": "tsc --outDir ./out && npm link"
   },
   "bin": {
-    "change-variable": "./out/changeVariable.js"
+    "change-variable": "./out/change-variable.js"
   },
   "keywords": [],
   "author": "",
